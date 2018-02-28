@@ -13,8 +13,6 @@ local myRectangle
 local widthOfRectangle = 400
 local heightOfRectangle = 250
 local areaOfRectangle
-
--- create my local variables for the Circle
 local AreaTextCircle
 local textSizeCircle = 15
 local myCircle
