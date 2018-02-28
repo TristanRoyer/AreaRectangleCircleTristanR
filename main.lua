@@ -20,6 +20,16 @@ local radiusOfCircle = 7
 local areaOfCircle 
 local PI = 3.14
 
+
+-- create my local variables for the Circle
+>>>>>>> cc5d06c558dd63118f714aa058163b9a52aed60c
+local AreaTextCircle
+local textSizeCircle = 15
+local myCircle
+local radiusOfCircle = 7
+local areaOfCircle 
+local PI = 3.14
+
 -- set the background colour of my screen.Remember that colours are are between 0 and 1.
 display.setDefault("background",15/255, 200/255, 150/255)
 
@@ -60,10 +70,8 @@ areaText.anchorY = 0
 areaText.X = 20
 areaText.Y = display.contentHeight/2
 
-
 -- set the colour of the newText
 areaText:setTextColor(154/255, 150/255, 100/255 )
-
 
 
 -- draw the circle
