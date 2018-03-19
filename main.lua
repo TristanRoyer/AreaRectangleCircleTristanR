@@ -22,7 +22,6 @@ local PI = 3.14
 
 
 -- create my local variables for the Circle
->>>>>>> cc5d06c558dd63118f714aa058163b9a52aed60c
 local AreaTextCircle
 local textSizeCircle = 15
 local myCircle
@@ -101,3 +100,11 @@ areaOfCircle = PI * radiusOfCircle * radiusOfCircle
 areaTextcircle = display.newText("The area of this circle with a radius  of " ..
  radiusOfCircle .. " is " .. 
  areaOfCircle .. " pixels^2.", 250, 300, Arial , textSizeCircle)
+
+-- local variables for sound
+
+local FreeMusic = audio.loadSound("Sounds/bensound-energy.mp3")
+
+local FreeMusic = audio.play
+
+FreeMusicChannel = audio.play(FreeMusic)
