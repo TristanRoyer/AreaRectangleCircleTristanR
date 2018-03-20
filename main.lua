@@ -101,10 +101,7 @@ areaTextcircle = display.newText("The area of this circle with a radius  of " ..
  radiusOfCircle .. " is " .. 
  areaOfCircle .. " pixels^2.", 250, 300, Arial , textSizeCircle)
 
--- local variables for sound
-
+--adds sound
 local FreeMusic = audio.loadSound("Sounds/bensound-energy.mp3")
-
-local FreeMusic = audio.play
-
+local FreeMusicChannel
 FreeMusicChannel = audio.play(FreeMusic)
